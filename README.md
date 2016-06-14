@@ -31,14 +31,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://imgur.com/YytSC7m' title='SimpleTodo demo' width='' alt='SimpleTodo demo' />
+<img src='http://i.imgur.com/YytSC7m.gifv' title='SimpleTodo demo' width='' alt='SimpleTodo demo' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
+I had trouble learning the logic of returning from a parent activity, which helped me implement editing tasks in my app. 
 ## License
 
     Copyright [2016] [Kaylie Lu]
