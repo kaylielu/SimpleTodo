@@ -7,6 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+
     tools:context="com.example.kaylie.simpletodo.MainActivity">
 
     <Button
@@ -17,7 +18,10 @@
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/lvItems"
         android:layout_alignEnd="@+id/lvItems"
-        android:onClick="onAddItem"/>
+        android:fontFamily="monospace"
+        android:onClick="onAddItem"
+        android:background="@android:color/holo_orange_light"
+        android:textStyle="bold"/>
 
     <ListView
         android:layout_width="wrap_content"
@@ -37,6 +41,8 @@
         android:layout_alignTop="@+id/btnAddItem"
         android:hint="Add a new task..."
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:fontFamily="monospace"
+        android:textStyle="bold"/>
 
 </RelativeLayout>

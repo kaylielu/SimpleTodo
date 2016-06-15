@@ -17,7 +17,9 @@
         android:id="@+id/editLabel"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:fontFamily="monospace"/>
 
     <EditText
         android:layout_width="wrap_content"
@@ -39,6 +41,9 @@
         android:layout_marginTop="31dp"
         android:layout_below="@+id/editText"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:background="@android:color/holo_orange_light"/>
 
 </RelativeLayout>
