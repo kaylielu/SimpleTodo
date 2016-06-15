@@ -37,9 +37,7 @@ public class MainActivity extends AppCompatActivity {
     // Removes items from list when you click them for a long time
     private void setupListViewListener() {
         lvItems.setOnItemLongClickListener(
-                new AdapterView.OnItemLongClickListener() {
-                    // Long click listener that for each item removes the item and refreshes the adapter
-                    @Override
+                new AdapterView.OnItemLongClickListener(){
                     public boolean onItemLongClick(AdapterView<?> adapter, View item, int pos, long id) {
                         items.remove(pos);
                         itemsAdapter.notifyDataSetChanged();
